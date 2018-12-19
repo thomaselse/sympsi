@@ -3,7 +3,7 @@
 from __future__ import print_function, division
 
 from sympy import S, Expr, Mul, Integer
-from sympy.core.compatibility import u
+from sympy.core.compatibility import u_decode as u
 from sympy.printing.pretty.stringpict import prettyForm
 
 from sympsi.operator import Operator
